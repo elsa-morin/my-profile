@@ -1,0 +1,112 @@
+/* Colors and fonts*/
+
+
+
+body{
+    background-color: #eee;
+    color: rgb(45 15 47);
+    font-family: Times;
+    font-weight: 100;
+
+	}
+
+h1, h2, h3 {
+	font-family: fantasy;
+}
+
+h1{ 
+    color: rgb(45 15 47);
+    font-weight: 500;
+    font-size: 50px;
+}                            
+
+h2{
+	color: #564b80;
+    font-weight: 400;
+    font-size: x-large;
+	}
+
+p {
+    font-size: medium;
+    color: #020202;
+    font-weight: inherit;
+}
+
+a {
+	font-family: Roboto;
+	text-decoration: none;
+	color: darkcyan;
+	font-weight: bold;
+
+	}
+
+a:hover {
+	color: darkcyan;
+}
+
+/* Custom design with class (99% of design
+) */
+
+.container {
+	width: 900px;
+	margin: 30px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: pink;
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: #e7e6f7;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px #ae9eec;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: none;
+}
+
+.btn-darkcyan {
+	background-color: black;
+	color: #e7e6f7;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+/* Design adjustments using id (1%)*/
+
+#introduction p {
+	margin-bottom: 50px;
+
+}
+}
+
+
+
+
+
+    
